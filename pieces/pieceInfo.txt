@@ -1,0 +1,14 @@
+White
+King:U+2654
+Queen:U+2655
+Rook:U+2656
+Bishop:U+2657
+Knight:U+2658
+Pawn:U+2659
+Black
+King:U+265A
+Queen:U+265B
+Rook:U+265C
+Bishop:U+265D
+Knight:U+2658
+Pawn:U+265E
