@@ -1,5 +1,13 @@
 
+tr{
+	height:auto;
+	width:auto;
+}
 
 td{
-	background-color: black;
+	background-color: #3D1600;
+	width: 40px;
+	padding: 25px;
+	height:100%;
+
 }

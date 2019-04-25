@@ -4,13 +4,16 @@
  		
 		private $name;
         private $image;
+        private $color;
 
-		public function __construct () {
+		public function __construct ($rColor) {
             $this->name = "pawn";
-			if($this::getColor() == "white"){
-                $this->image = "whitepawn.jpg";
+            $this->color = $rColor;
+
+            if($this->color == "white"){
+                $this->image = "whitepawn.png";
             }else{
-                $this->image = "whitepawn.jpg";
+                $this->image = "blackpawn.png";
             }
   		}
 

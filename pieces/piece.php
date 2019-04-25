@@ -1,12 +1,12 @@
-<?php 
+<?php
+
+
 	class piece {
 
         private $playerName;
-        private $color;
 
-        public function __construct($rName, $rColor)
+        public function __construct($rName)
         {
-            $this->color = $rColor;
             $this->playerName = $rName;
 
         }
